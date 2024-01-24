@@ -44,7 +44,7 @@ const ListingPhotos = ({ listing }) => {
               <img
                 onClick={() => setShowAllPhotos(true)}
                 className="aspect-square object-cover rounded-md cursor-pointer"
-                src={`http://localhost:3000/uploads/${listing.photos[0]}`}
+                src={`https://airbnb-clone-p8wh.onrender.com/uploads/${listing.photos[0]}`}
                 alt=""
               />
             </div>
@@ -57,7 +57,7 @@ const ListingPhotos = ({ listing }) => {
                 <img
                   onClick={() => setShowAllPhotos(true)}
                   className="aspect-square object-cover rounded-md cursor-pointer"
-                  src={`http://localhost:3000/uploads/${listing.photos[1]}`}
+                  src={`https://airbnb-clone-p8wh.onrender.com/uploads/${listing.photos[1]}`}
                   alt=""
                 />
               </div>
@@ -71,7 +71,7 @@ const ListingPhotos = ({ listing }) => {
                 <img
                   onClick={() => setShowAllPhotos(true)}
                   className="aspect-square object-cover rounded-md cursor-pointer"
-                  src={`http://localhost:3000/uploads/${listing.photos[2]}`}
+                  src={`https://airbnb-clone-p8wh.onrender.com/uploads/${listing.photos[2]}`}
                   alt=""
                 />
               </div>
@@ -85,7 +85,7 @@ const ListingPhotos = ({ listing }) => {
                 <img
                   onClick={() => setShowAllPhotos(true)}
                   className="aspect-square object-cover rounded-md cursor-pointer"
-                  src={`http://localhost:3000/uploads/${listing.photos[3]}`}
+                  src={`https://airbnb-clone-p8wh.onrender.com/uploads/${listing.photos[3]}`}
                   alt=""
                 />
               </div>
@@ -99,7 +99,7 @@ const ListingPhotos = ({ listing }) => {
                 <img
                   onClick={() => setShowAllPhotos(true)}
                   className="aspect-square object-cover rounded-md cursor-pointer"
-                  src={`http://localhost:3000/uploads/${listing.photos[4]}`}
+                  src={`https://airbnb-clone-p8wh.onrender.com/uploads/${listing.photos[4]}`}
                   alt=""
                 />
               </div>
